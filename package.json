@@ -1,0 +1,29 @@
+{
+  "name": "muitation-component-ob-lits-lit",
+  "description": "Webcomponent muitation-component-ob-lits-lit following open-wc recommendations",
+  "license": "MIT",
+  "author": "muitation-component-ob-lits-lit",
+  "version": "0.0.0",
+  "type": "module",
+  "main": "index.js",
+  "module": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./muitation-component-ob-lits-lit.js": "./muitation-component-ob-lits-lit.js"
+  },
+  "scripts": {
+    "analyze": "cem analyze --litelement",
+    "start": "web-dev-server"
+  },
+  "dependencies": {
+    "@open-wc/scoped-elements": "^3.0.5",
+    "@webcomponents/scoped-custom-element-registry": "^0.0.9",
+    "dile-input": "^3.1.2",
+    "lit": "^3.2.1"
+  },
+  "devDependencies": {
+    "@custom-elements-manifest/analyzer": "^0.10.3",
+    "@web/dev-server": "^0.4.6"
+  },
+  "customElements": "custom-elements.json"
+}
